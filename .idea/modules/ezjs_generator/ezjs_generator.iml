@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":ezjs_generator" external.linked.project.path="$MODULE_DIR$/../../../ezjs_generator" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="me.ezjs.exam" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../ezjs_generator">
+      <excludeFolder url="file://$MODULE_DIR$/../../../ezjs_generator/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../ezjs_generator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../ezjs_generator/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

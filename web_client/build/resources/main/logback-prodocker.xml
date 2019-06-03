@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <!-- 这里面定义了 CONSOLE_LOG_PATTERN, FILE_LOG_PATTERN 等日志格式, 还定义了一些日志级别 -->
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <!--<property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}"/>-->
+    <!-- value中的路径可自行配置-->
+    <!--<property name="LOG_FILE" value="/tmp/runtime_logs/logFile}"/>-->
+     <!--&lt;!&ndash;服务器日志文件夹&ndash;&gt;-->
+    <!--<property name="LOG_FILE" value="C:/ftpServer/log/logFile"/>-->
+    <!-- 本机日志文件夹-->
+    <property name="LOG_FILE" value="E:/ftpServer/log/logFile"/>
+    <!--<include resource="org/springframework/boot/logging/logback/console-appender.xml" />-->
+    <!-- RollingFileAppender(文件大小到达指定尺寸的时候产生一个新的文件) -->
+    <appender name="TIME_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <file>${LOG_FILE}</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_FILE}.%d{yyyy-MM-dd}.%i</fileNamePattern>
+            <maxHistory>365</maxHistory>
+            <totalSizeCap>30GB</totalSizeCap>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <!-- 在日滚动文件中，强制只保存错误INFO级别以上的信息 -->
+        <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+        <!--<level>DEBUG</level>-->
+        <!--<onMatch>ACCEPT</onMatch>-->
+        <!--<onMismatch>DENY</onMismatch>-->
+        <!--</filter>-->
+    </appender>
+
+    <logger name="club.emergency" level="INFO"/>
+    <logger name="org.springframework" level="WARN"/>
+    <!--myibatis log configure-->
+    <logger name="com.apache.ibatis" level="TRACE"/>
+    <logger name="java.sql.Connection" level="DEBUG"/>
+    <logger name="java.sql.Statement" level="DEBUG"/>
+    <logger name="java.sql.PreparedStatement" level="DEBUG"/>
+
+    <root level="WARN">
+        <!--<appender-ref ref="CONSOLE" />-->
+        <appender-ref ref="TIME_FILE"/>
+    </root>
+
+</configuration>

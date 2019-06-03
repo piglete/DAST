@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":unit_config" external.linked.project.path="$MODULE_DIR$/../../../unit_config" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="club.emergency" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../unit_config">
+      <excludeFolder url="file://$MODULE_DIR$/../../../unit_config/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../unit_config/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../unit_config/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

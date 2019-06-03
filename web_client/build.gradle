@@ -1,0 +1,64 @@
+buildscript {
+    ext {
+        springBootVersion = '1.5.1.RELEASE'
+    }
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+group 'club.emergency'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+repositories {
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+}
+
+jar {
+    baseName = 'web_client'
+    version = '0.0.1-DAST'
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter:1.5.1.RELEASE")
+//    compile("org.springframework.boot:spring-boot-starter-security:1.5.1.RELEASE")
+//    compile group: 'de.codecentric', name: 'spring-boot-admin-starter-client', version: '1.5.1'
+
+    compile group: 'commons-pool', name: 'commons-pool', version: '1.6'
+    compile group: 'commons-configuration', name: 'commons-configuration', version: '1.7'
+
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.8.8'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.8'
+    // https://mvnrepository.com/artifact/com.alibaba/druid
+    compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.1'
+    compile group: 'com.google.code.gson', name: 'gson', version:'2.8.2'
+    compile project(':app_base')
+    compile project(':jun_base')
+    compile project(':employee')
+    compile project(':department')
+    compile project(':auth_permission')
+    compile project(':project')
+    compile project(':equipment')
+    compile project(':contract')
+    compile project(':region')
+    compile project(':dictionary')
+    compile project(':system_notice')
+    compile project(':user_information')
+    compile project(':log')
+    compile project(':review_process')
+    compile project(':file_manager')
+    compile project(':storeroom')
+    compile project(':return_reason')
+    compile project(':unit_config')
+    // https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api
+    compile group: 'javax.websocket', name: 'javax.websocket-api', version: '1.1'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.2.2'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.2.2'
+    runtime('mysql:mysql-connector-java:5.1.38')
+}

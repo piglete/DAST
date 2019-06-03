@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DAST.iml" filepath="$PROJECT_DIR$/.idea/modules/DAST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DAST_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DAST_main.iml" group="DAST" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DAST_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DAST_test.iml" group="DAST" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app_base/app_base.iml" filepath="$PROJECT_DIR$/.idea/modules/app_base/app_base.iml" group="app_base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app_base/app_base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app_base/app_base_main.iml" group="app_base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app_base/app_base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app_base/app_base_test.iml" group="app_base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth_permission/auth_permission.iml" filepath="$PROJECT_DIR$/.idea/modules/auth_permission/auth_permission.iml" group="auth_permission" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth_permission/auth_permission_main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth_permission/auth_permission_main.iml" group="auth_permission" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth_permission/auth_permission_test.iml" filepath="$PROJECT_DIR$/.idea/modules/auth_permission/auth_permission_test.iml" group="auth_permission" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contract/contract.iml" filepath="$PROJECT_DIR$/.idea/modules/contract/contract.iml" group="contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contract/contract_main.iml" filepath="$PROJECT_DIR$/.idea/modules/contract/contract_main.iml" group="contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contract/contract_test.iml" filepath="$PROJECT_DIR$/.idea/modules/contract/contract_test.iml" group="contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/department/department.iml" filepath="$PROJECT_DIR$/.idea/modules/department/department.iml" group="department" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/department/department_main.iml" filepath="$PROJECT_DIR$/.idea/modules/department/department_main.iml" group="department" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/department/department_test.iml" filepath="$PROJECT_DIR$/.idea/modules/department/department_test.iml" group="department" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dictionary/dictionary.iml" filepath="$PROJECT_DIR$/.idea/modules/dictionary/dictionary.iml" group="dictionary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dictionary/dictionary_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dictionary/dictionary_main.iml" group="dictionary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dictionary/dictionary_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dictionary/dictionary_test.iml" group="dictionary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee/employee.iml" filepath="$PROJECT_DIR$/.idea/modules/employee/employee.iml" group="employee" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee/employee_main.iml" filepath="$PROJECT_DIR$/.idea/modules/employee/employee_main.iml" group="employee" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee/employee_test.iml" filepath="$PROJECT_DIR$/.idea/modules/employee/employee_test.iml" group="employee" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/equipment/equipment.iml" filepath="$PROJECT_DIR$/.idea/modules/equipment/equipment.iml" group="equipment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/equipment/equipment_main.iml" filepath="$PROJECT_DIR$/.idea/modules/equipment/equipment_main.iml" group="equipment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/equipment/equipment_test.iml" filepath="$PROJECT_DIR$/.idea/modules/equipment/equipment_test.iml" group="equipment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ezjs_generator/ezjs_generator.iml" filepath="$PROJECT_DIR$/.idea/modules/ezjs_generator/ezjs_generator.iml" group="ezjs_generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ezjs_generator/ezjs_generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ezjs_generator/ezjs_generator_main.iml" group="ezjs_generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ezjs_generator/ezjs_generator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ezjs_generator/ezjs_generator_test.iml" group="ezjs_generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file_manager/file_manager.iml" filepath="$PROJECT_DIR$/.idea/modules/file_manager/file_manager.iml" group="file_manager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file_manager/file_manager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/file_manager/file_manager_main.iml" group="file_manager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file_manager/file_manager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/file_manager/file_manager_test.iml" group="file_manager" />
+      <module fileurl="file://$PROJECT_DIR$/g_plan_drill.iml" filepath="$PROJECT_DIR$/g_plan_drill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jun_base/jun_base.iml" filepath="$PROJECT_DIR$/.idea/modules/jun_base/jun_base.iml" group="jun_base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jun_base/jun_base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jun_base/jun_base_main.iml" group="jun_base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jun_base/jun_base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jun_base/jun_base_test.iml" group="jun_base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log/log.iml" filepath="$PROJECT_DIR$/.idea/modules/log/log.iml" group="log" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log/log_main.iml" filepath="$PROJECT_DIR$/.idea/modules/log/log_main.iml" group="log" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/log/log_test.iml" filepath="$PROJECT_DIR$/.idea/modules/log/log_test.iml" group="log" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project/project.iml" filepath="$PROJECT_DIR$/.idea/modules/project/project.iml" group="project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project/project_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project/project_main.iml" group="project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project/project_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project/project_test.iml" group="project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/region/region.iml" filepath="$PROJECT_DIR$/.idea/modules/region/region.iml" group="region" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/region/region_main.iml" filepath="$PROJECT_DIR$/.idea/modules/region/region_main.iml" group="region" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/region/region_test.iml" filepath="$PROJECT_DIR$/.idea/modules/region/region_test.iml" group="region" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/return_reason/return_reason.iml" filepath="$PROJECT_DIR$/.idea/modules/return_reason/return_reason.iml" group="return_reason" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/return_reason/return_reason_main.iml" filepath="$PROJECT_DIR$/.idea/modules/return_reason/return_reason_main.iml" group="return_reason" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/return_reason/return_reason_test.iml" filepath="$PROJECT_DIR$/.idea/modules/return_reason/return_reason_test.iml" group="return_reason" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review_process/review_process.iml" filepath="$PROJECT_DIR$/.idea/modules/review_process/review_process.iml" group="review_process" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review_process/review_process_main.iml" filepath="$PROJECT_DIR$/.idea/modules/review_process/review_process_main.iml" group="review_process" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review_process/review_process_test.iml" filepath="$PROJECT_DIR$/.idea/modules/review_process/review_process_test.iml" group="review_process" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storeroom/storeroom.iml" filepath="$PROJECT_DIR$/.idea/modules/storeroom/storeroom.iml" group="storeroom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storeroom/storeroom_main.iml" filepath="$PROJECT_DIR$/.idea/modules/storeroom/storeroom_main.iml" group="storeroom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storeroom/storeroom_test.iml" filepath="$PROJECT_DIR$/.idea/modules/storeroom/storeroom_test.iml" group="storeroom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/system_notice/system_notice.iml" filepath="$PROJECT_DIR$/.idea/modules/system_notice/system_notice.iml" group="system_notice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/system_notice/system_notice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/system_notice/system_notice_main.iml" group="system_notice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/system_notice/system_notice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/system_notice/system_notice_test.iml" group="system_notice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unit_config/unit_config.iml" filepath="$PROJECT_DIR$/.idea/modules/unit_config/unit_config.iml" group="unit_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unit_config/unit_config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unit_config/unit_config_main.iml" group="unit_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unit_config/unit_config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unit_config/unit_config_test.iml" group="unit_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user_information/user_information.iml" filepath="$PROJECT_DIR$/.idea/modules/user_information/user_information.iml" group="user_information" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user_information/user_information_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user_information/user_information_main.iml" group="user_information" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user_information/user_information_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user_information/user_information_test.iml" group="user_information" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web_client/web_client.iml" filepath="$PROJECT_DIR$/.idea/modules/web_client/web_client.iml" group="web_client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web_client/web_client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web_client/web_client_main.iml" group="web_client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web_client/web_client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web_client/web_client_test.iml" group="web_client" />
+    </modules>
+  </component>
+</project>
